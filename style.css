@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+i {
+    font-size: 25px;
+    color: black;
+}
+
+span {
+    color: #fff;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: rgb(201, 2, 2);
+}
+
+
+.img1, .img2, .img3, .img4 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.img1 {
+    background-image: url('2017_Legendary_boxer_Muhammad_Ali_112353_.jpg');
+    min-height: 100%;
+}
+
+.img2 {
+    background-image: url('16989078.jpg');
+    min-height: 600px;
+}
+
+.img3 {
+    background-image: url('velichayshiy-mukhammad-ali-minimalistskiy-oboi-1920x1080-53067_48.jpg');
+    min-height: 400px;
+}
+
+.img4 {
+    background-image: url('qkFw4n.jpg');
+    min-height: 100%;
+}
+
+.section-thegreatest {
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #ffffff;
+    color: rgb(12, 12, 12);
+}
+
+.section-quotes {
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #020202;
+    backface-visibility: visible;
+    color: rgb(255, 255, 255);
+}
+
+.section-fights {
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #020202;
+    color: rgb(255, 255, 255);
+}
+
+.text1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: ghostwhite;
+    font-size: 27px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.text1 .border {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+.message {
+    font-size: 4rem;
+}
+
+#content {
+    display: none;
+    padding: 1rem;
+}
+
+.emoji {
+    padding: 0 .25rem;
+}
+
+@media all and (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    li {
+        font-size: 1.125rem;
+        padding: .75rem;
+    }
+
+    li span {
+        font-size: 3.375rem;
+    }
+}
+
+footer {
+    float: right;
+    margin-right: -10px;
+    background-color: #111;
+    height: auto;
+    width: 100vw;
+    font-family: Montserrat;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
